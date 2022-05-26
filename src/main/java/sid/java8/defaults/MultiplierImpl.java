@@ -2,7 +2,7 @@ package sid.java8.defaults;
 
 import java.util.List;
 
-public class MultiplierImpl implements  Multiplier {
+public class MultiplierImpl implements Multiplier {
 
     @Override
     public int multiply(List<Integer> integerList) {

@@ -13,6 +13,7 @@ public class DefaultMethodExample2 {
     static Comparator<Student> gpaComparator = Comparator.comparing(Student::getGpa);
     static Comparator<Student> genderComparator = Comparator.comparing(Student::getGender);
     static Comparator<Student> gradeComparator = Comparator.comparing(Student::getGradeLevel);
+    static Comparator<Student> noteComparator = Comparator.comparing(Student::getNoteBooks);
     static Consumer<Student> studentConsumer = student -> System.out.println("student : " + student);
 
     public static void sortByName(List<Student> studentList){
@@ -39,6 +40,16 @@ public class DefaultMethodExample2 {
         studentList.forEach(studentConsumer);
 
     }
+    
+    public static void sortByNoteBook(){
+
+        List<Student> studentList = StudentDataBase.getAllStudents();
+        Comparator<Student> nullLast = Comparator.nullsFirst(noteComparator);
+        studentList.sort(nullLast);
+        System.out.println("After Sort By NoteBook : ");
+        studentList.forEach(studentConsumer);
+
+    }
 
 
     public static void comparatorChaining(){
@@ -56,6 +67,7 @@ public class DefaultMethodExample2 {
         sortByName(studentList);
         sortByGender();
         sortByGPA(studentList);
+        sortByNoteBook();
         comparatorChaining();
 
     }
