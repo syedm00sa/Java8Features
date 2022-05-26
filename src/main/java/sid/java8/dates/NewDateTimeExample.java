@@ -10,9 +10,14 @@ public class NewDateTimeExample {
 
         LocalDate localDate = LocalDate.now();
         System.out.println("localDate : "+ localDate);
+        
         LocalTime localTime = LocalTime.now();
+       
         System.out.println("localTime : "+ localTime);
+        
         LocalDateTime localDateTime = LocalDateTime.now();
         System.out.println("localDateTime : "+ localDateTime);
+        
+        
     }
 }

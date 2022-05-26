@@ -12,7 +12,6 @@ public interface Multiplier {
     }
 
     static boolean isEmpty(List<Integer> integerList){
-
         return integerList!=null && integerList.size()==0;
     }
 };
