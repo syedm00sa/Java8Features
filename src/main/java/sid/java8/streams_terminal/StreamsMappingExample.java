@@ -1,12 +1,14 @@
-package com.learnJava.streams_terminal;
+package sid.java8.streams_terminal;
 
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+import static java.util.stream.Collectors.mapping;
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.toSet;
 
 import java.util.List;
 import java.util.Set;
 
-import static java.util.stream.Collectors.*;
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class StreamsMappingExample {
 

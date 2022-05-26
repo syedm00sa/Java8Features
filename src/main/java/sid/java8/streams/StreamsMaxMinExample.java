@@ -1,9 +1,8 @@
-package com.learnJava.streams;
+package sid.java8.streams;
 
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
-
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
 
 public class StreamsMaxMinExample {
 

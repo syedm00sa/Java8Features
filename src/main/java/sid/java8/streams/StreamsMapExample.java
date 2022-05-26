@@ -1,16 +1,16 @@
-package com.learnJava.streams;
+package sid.java8.streams;
 
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.toMap;
+import static java.util.stream.Collectors.toSet;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.Collectors.toMap;
-import static java.util.stream.Collectors.toSet;
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class StreamsMapExample {
 

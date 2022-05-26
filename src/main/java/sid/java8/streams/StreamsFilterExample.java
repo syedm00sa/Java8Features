@@ -1,12 +1,11 @@
-package com.learnJava.streams;
-
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
-
-import java.util.List;
-import java.util.stream.IntStream;
+package sid.java8.streams;
 
 import static java.util.stream.Collectors.toList;
+
+import java.util.List;
+
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class StreamsFilterExample {
 

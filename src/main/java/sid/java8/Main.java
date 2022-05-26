@@ -1,7 +1,4 @@
-package com.learnJava;
-
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+package sid.java8;
 
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -9,6 +6,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.BinaryOperator;
 import java.util.stream.Collectors;
+
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class Main {
 

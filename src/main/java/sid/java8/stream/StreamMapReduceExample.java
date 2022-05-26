@@ -1,7 +1,7 @@
 package sid.java8.stream;
 
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class StreamMapReduceExample {
 

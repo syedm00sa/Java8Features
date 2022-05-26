@@ -1,4 +1,4 @@
-package com.learnJava.methodreferences;
+package sid.java8.methodreferences;
 
 import java.util.function.Function;
 import java.util.function.UnaryOperator;

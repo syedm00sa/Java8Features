@@ -1,10 +1,10 @@
-package com.learnJava.optional;
-
-import com.learnJava.data.Bike;
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+package sid.java8.optional;
 
 import java.util.Optional;
+
+import sid.java8.data.Bike;
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class OptionalMapFlatMapExample {
 
@@ -30,7 +30,7 @@ public class OptionalMapFlatMapExample {
     public static void optionalFilter(){
 
         Optional<Student> studentOptional = StudentDataBase.getOptionalStudent()
-                .filter(student -> student.getGpa()>=4.3);
+                .filter(student -> student.getGpa()>=4.0);
 
         studentOptional.ifPresent(student -> System.out.println(student));
 

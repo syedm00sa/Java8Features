@@ -1,10 +1,9 @@
-package com.learnJava.streams_terminal;
+package sid.java8.streams_terminal;
 
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
-
-import java.util.Collection;
 import java.util.stream.Collectors;
+
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class StreamsJoiningExample {
 

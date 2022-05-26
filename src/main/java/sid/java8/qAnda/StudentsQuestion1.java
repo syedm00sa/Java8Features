@@ -1,11 +1,12 @@
-package com.learnJava.qAnda;
+package sid.java8.qAnda;
 
-import com.learnJava.data.Student;
+import static java.util.stream.Collectors.counting;
+import static java.util.stream.Collectors.groupingBy;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 import java.util.function.Function;
-
-import static java.util.stream.Collectors.*;
 
 public class StudentsQuestion1 {
 

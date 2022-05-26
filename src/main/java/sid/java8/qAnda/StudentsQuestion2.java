@@ -1,4 +1,4 @@
-package com.learnJava.qAnda;
+package sid.java8.qAnda;
 
 import java.util.ArrayList;
 import java.util.Arrays;

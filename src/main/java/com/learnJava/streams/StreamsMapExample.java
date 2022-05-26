@@ -1,13 +1,13 @@
 package com.learnJava.streams;
 
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.toSet;
 
 import java.util.List;
 import java.util.Set;
 
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.Collectors.toSet;
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class StreamsMapExample {
 	

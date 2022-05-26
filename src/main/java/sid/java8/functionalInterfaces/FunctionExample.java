@@ -1,4 +1,4 @@
-package com.learnJava.functionalInterfaces;
+package sid.java8.functionalInterfaces;
 
 import java.util.function.Function;
 

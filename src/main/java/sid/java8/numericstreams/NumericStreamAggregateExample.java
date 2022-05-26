@@ -1,6 +1,4 @@
-package com.learnJava.numericstreams;
-
-import com.learnJava.data.StudentDataBase;
+package sid.java8.numericstreams;
 
 import java.util.OptionalDouble;
 import java.util.OptionalInt;

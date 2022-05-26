@@ -1,9 +1,8 @@
-package com.learnJava.optional;
-
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+package sid.java8.optional;
 
 import java.util.Optional;
+
+import sid.java8.data.Student;
 
 public class OptionalOrElseExample {
 

@@ -1,4 +1,4 @@
-package com.learnJava.parallelstreams;
+package sid.java8.parallelstreams;
 
 public class Sum {
 

@@ -1,16 +1,16 @@
-package com.learnJava.streams_terminal;
+package sid.java8.streams_terminal;
 
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+import static java.util.stream.Collectors.partitioningBy;
+import static java.util.stream.Collectors.toMap;
+import static java.util.stream.Collectors.toSet;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.Predicate;
 
-import static java.util.stream.Collectors.partitioningBy;
-import static java.util.stream.Collectors.toMap;
-import static java.util.stream.Collectors.toSet;
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class StreamsPartitioningExample {
 

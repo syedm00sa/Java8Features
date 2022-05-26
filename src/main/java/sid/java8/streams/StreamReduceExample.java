@@ -1,16 +1,11 @@
-package com.learnJava.streams;
-
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+package sid.java8.streams;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.maxBy;
-import static java.util.stream.Collectors.toList;
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class StreamReduceExample {
 

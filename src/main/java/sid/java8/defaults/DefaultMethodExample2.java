@@ -1,11 +1,11 @@
-package com.learnJava.defaults;
-
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+		package sid.java8.defaults;
 
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Consumer;
+
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class DefaultMethodExample2 {
 
@@ -53,9 +53,9 @@ public class DefaultMethodExample2 {
         List<Student> studentList = StudentDataBase.getAllStudents();
         System.out.println("Original List");
         studentList.forEach(student -> System.out.println("student : " + student));
-        /*sortByGender();
         sortByName(studentList);
-        sortByGPA(studentList);*/
+        sortByGender();
+        sortByGPA(studentList);
         comparatorChaining();
 
     }

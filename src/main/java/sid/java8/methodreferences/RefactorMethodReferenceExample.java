@@ -1,11 +1,10 @@
-package com.learnJava.methodreferences;
-
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
-import com.learnJava.functionalInterfaces.SupplierExample;
+package sid.java8.methodreferences;
 
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
+
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class RefactorMethodReferenceExample {
 

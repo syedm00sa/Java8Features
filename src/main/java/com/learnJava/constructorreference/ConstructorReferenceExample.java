@@ -3,7 +3,7 @@ package com.learnJava.constructorreference;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-import com.learnJava.data.Student;
+import sid.java8.data.Student;
 
 
 public class ConstructorReferenceExample {

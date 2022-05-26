@@ -1,4 +1,4 @@
-package com.learnJava.imperativevsdeclarative;
+package sid.java8.imperativevsdeclarative;
 
 import java.util.function.Predicate;
 import java.util.stream.IntStream;

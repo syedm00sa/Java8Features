@@ -1,12 +1,12 @@
-package com.learnJava.functionalInterfaces;
-
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+package sid.java8.functionalInterfaces;
 
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
+
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class PredicateStudentExample {
 

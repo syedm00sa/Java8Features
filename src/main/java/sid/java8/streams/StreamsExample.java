@@ -1,14 +1,12 @@
-package com.learnJava.streams;
+package sid.java8.streams;
 
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
-
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
+
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class StreamsExample {
 

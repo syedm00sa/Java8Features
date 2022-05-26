@@ -1,4 +1,4 @@
-package com.learnJava.parallelstreams;
+package sid.java8.parallelstreams;
 
 import java.util.List;
 import java.util.stream.Collectors;

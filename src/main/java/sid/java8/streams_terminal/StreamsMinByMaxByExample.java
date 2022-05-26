@@ -1,13 +1,15 @@
-package com.learnJava.streams_terminal;
-
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
-
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+package sid.java8.streams_terminal;
 
 import static java.util.stream.Collectors.toList;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class StreamsMinByMaxByExample {
 

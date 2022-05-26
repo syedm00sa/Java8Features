@@ -1,12 +1,10 @@
-package com.learnJava.lambda;
-
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+package sid.java8.lambda;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
-import java.util.function.Supplier;
+
+import sid.java8.data.Student;
 
 public class LambdaExceptionHandlingExample {
 

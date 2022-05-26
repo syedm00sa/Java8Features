@@ -1,4 +1,4 @@
-package com.learnJava.defaults;
+package sid.java8.defaults;
 
 public class Client123 implements Interface1,Interface2,Interface3 {
 

@@ -1,8 +1,5 @@
 package com.learnJava.streams;
 
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
-
 public class StreamMapReduceExample {
 
 //    private static int noOfNoteBooks(){

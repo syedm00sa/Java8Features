@@ -1,4 +1,4 @@
-package com.learnJava.optional;
+package sid.java8.optional;
 
 import java.util.Optional;
 
@@ -9,6 +9,10 @@ public class OptionalPresentExample {
         Optional<String> stringOptional = Optional.ofNullable("Hello Optional");
 
         System.out.println(stringOptional.isPresent());
+        
+        if(stringOptional.isPresent()) {
+        	System.out.println(stringOptional.get());
+        }
 
         stringOptional.ifPresent((s -> System.out.println("value is : " + s)));
     }

@@ -1,8 +1,8 @@
-package com.learnJava.methodreferences;
-
-import com.learnJava.data.Student;
+package sid.java8.methodreferences;
 
 import java.util.function.Supplier;
+
+import sid.java8.data.Student;
 
 public class SupplierMethodReferenceExample {
 

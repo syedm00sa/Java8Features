@@ -1,9 +1,9 @@
 package com.learnJava.methodreference;
 
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
-
 import java.util.function.Predicate;
+
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class RefactorMethodReferenceExample {
 

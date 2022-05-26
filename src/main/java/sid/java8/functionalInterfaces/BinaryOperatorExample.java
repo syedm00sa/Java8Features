@@ -1,4 +1,4 @@
-package com.learnJava.functionalInterfaces;
+package sid.java8.functionalInterfaces;
 
 import java.util.Comparator;
 import java.util.function.BinaryOperator;

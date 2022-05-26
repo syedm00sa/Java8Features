@@ -1,4 +1,4 @@
-package com.learnJava.numericstreams;
+package sid.java8.numericstreams;
 
 import java.util.Arrays;
 import java.util.List;

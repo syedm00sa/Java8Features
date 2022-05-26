@@ -1,4 +1,4 @@
-package com.learnJava.defaults;
+package sid.java8.defaults;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -24,7 +24,6 @@ public class DefaultMethodsExample1 {
         stringList.sort(Comparator.reverseOrder());
 
         System.out.println("Reverse Sorted list : " +  stringList);
-
 
     }
 }

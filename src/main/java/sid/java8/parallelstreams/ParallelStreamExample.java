@@ -1,4 +1,4 @@
-package com.learnJava.parallelstreams;
+package sid.java8.parallelstreams;
 
 import java.time.Duration;
 import java.time.LocalTime;

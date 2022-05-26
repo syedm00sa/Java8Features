@@ -1,12 +1,11 @@
-package com.learnJava.parallelstreams;
-
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
-
-import java.util.List;
-import java.util.concurrent.TimeUnit;
+package sid.java8.parallelstreams;
 
 import static java.util.stream.Collectors.toList;
+
+import java.util.List;
+
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class ParallelStreamExample1 {
 

@@ -1,4 +1,4 @@
-package com.learnJava.streams;
+package sid.java8.streams;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

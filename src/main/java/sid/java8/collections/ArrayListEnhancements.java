@@ -1,4 +1,4 @@
-package com.learnJava.collections;
+package sid.java8.collections;
 
 import java.util.Arrays;
 import java.util.List;

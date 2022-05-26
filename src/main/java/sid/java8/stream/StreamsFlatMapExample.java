@@ -1,11 +1,11 @@
 package sid.java8.stream;
 
-import com.learnJava.data.Student;
-import com.learnJava.data.StudentDataBase;
+import static java.util.stream.Collectors.toList;
 
 import java.util.List;
 
-import static java.util.stream.Collectors.toList;
+import sid.java8.data.Student;
+import sid.java8.data.StudentDataBase;
 
 public class StreamsFlatMapExample {
 	

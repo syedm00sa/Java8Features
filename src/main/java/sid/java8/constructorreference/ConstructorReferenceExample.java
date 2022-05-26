@@ -1,9 +1,9 @@
-package com.learnJava.constructorreference;
-
-import com.learnJava.data.Student;
+package sid.java8.constructorreference;
 
 import java.util.function.Function;
 import java.util.function.Supplier;
+
+import sid.java8.data.Student;
 
 public class ConstructorReferenceExample {
 

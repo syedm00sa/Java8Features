@@ -1,4 +1,4 @@
-package com.learnJava.lambda;
+package sid.java8.lambda;
 
 import java.util.Arrays;
 import java.util.List;
