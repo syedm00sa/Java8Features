@@ -5,10 +5,8 @@ import java.time.format.DateTimeFormatter;
 
 public class FormattingLocalDateExample {
 
-
-
-
     public static void parseLocalDate(){
+    	
         /**
          * Using system defined format
          */
@@ -21,7 +19,7 @@ public class FormattingLocalDateExample {
         String isoDate = "20180428";
         System.out.println("BASIC_ISO_DATE : " +LocalDate.parse(isoDate,DateTimeFormatter.BASIC_ISO_DATE));
 
-
+        
         /**
          * Custom system defined format
          */
@@ -42,13 +40,10 @@ public class FormattingLocalDateExample {
         LocalDate localDate = LocalDate.now();
         String formattedDate = localDate.format(dateTimeFormatter);
         System.out.println("formattedDate : " + formattedDate);
-
     }
 
     public static void main(String[] args) {
         parseLocalDate();
         formatLocalDate();
-
     }
-
 }

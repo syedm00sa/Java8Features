@@ -10,13 +10,13 @@ public class LocalTimeExample {
     public static void main(String[] args) {
 
         LocalTime localTime = LocalTime.now();
-        System.out.println(localTime);
+        System.out.println("Local Time : " +localTime);
 
         LocalTime localTime1 = LocalTime.of(23,33);
-        System.out.println(localTime1);
+        System.out.println("Time       :" + localTime1);
 
         LocalTime localTime2 = LocalTime.of(22,33,45);
-        System.out.println(localTime2);
+        System.out.println("Time with second :" + localTime2);
 
         /**
          * Getting the values from LocalTime

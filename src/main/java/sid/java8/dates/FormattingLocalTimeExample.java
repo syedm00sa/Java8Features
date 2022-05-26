@@ -2,7 +2,6 @@ package sid.java8.dates;
 
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 public class FormattingLocalTimeExample {
 
@@ -30,8 +29,6 @@ public class FormattingLocalTimeExample {
         LocalTime localTime3= LocalTime.parse(time2,dateTimeFormatter1);
         System.out.println("localTime3 : " + localTime3);
 
-
-
     }
 
     public static void formatTime(){
@@ -52,6 +49,5 @@ public class FormattingLocalTimeExample {
     public static void main(String[] args) {
         parseTime();
         formatTime();
-
     }
 }

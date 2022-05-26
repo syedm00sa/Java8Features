@@ -10,7 +10,7 @@ public class FormattingLocalDateTimeExample {
 
         String dateTime = "2018-04-18T14:33:33";
         LocalDateTime localDateTime = LocalDateTime.parse(dateTime);
-        System.out.println(localDateTime);
+        System.out.println("localDateTime :" + localDateTime);
 
         LocalDateTime localDateTime1 = LocalDateTime.parse(dateTime, DateTimeFormatter.ISO_DATE_TIME);
         System.out.println("localDateTime1 : " + localDateTime1);

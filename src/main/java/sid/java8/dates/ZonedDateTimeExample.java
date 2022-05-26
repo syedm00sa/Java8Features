@@ -16,13 +16,13 @@ public class ZonedDateTimeExample {
         ZoneId zoneId = zonedDateTime.getZone();
         System.out.println("zoneId : " + zoneId.getId());
 
-        // System.out.println("getAvailableZoneIds : " + ZoneId.getAvailableZoneIds());
+        // System.out.println("getAvailableZoneIds :	" + ZoneId.getAvailableZoneIds());
 
-        /*ZoneId.getAvailableZoneIds()
-                .forEach(zone -> {
-                    System.out.println("zone : " + zone);
-                });*/
-        System.out.println("no Of Zones : " + ZoneId.getAvailableZoneIds().size());
+//        ZoneId.getAvailableZoneIds()
+//                .forEach(zone -> {
+//                    System.out.println("zone : " + zone);
+//                });
+//        System.out.println("no Of Zones : " + ZoneId.getAvailableZoneIds().size());
 
 
         //America/Chicago
@@ -37,6 +37,8 @@ public class ZonedDateTimeExample {
         System.out.println("Detroit EST     : " + ZonedDateTime.now(ZoneId.of("America/Detroit")));
         System.out.println("LA PST : "  + ZonedDateTime.now(ZoneId.of("America/Los_Angeles")));
         System.out.println("Denver MST     : "  + ZonedDateTime.now(ZoneId.of("America/Denver")));
+        System.out.println("India MST     : "  + ZonedDateTime.now(ZoneId.of("Indian/Christmas")));
+
 
         /**
          *
